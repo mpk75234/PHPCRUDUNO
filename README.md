@@ -1,7 +1,7 @@
 # PHPCRUDUNO
-PHP CRUD using XAMPP/Bootstrap - I got bored with MERN, took a php break. ftw.
+PHP CRUD using XAMPP/Bootstrap - I got bored with MERN, took a php break.
 
-To whom it may concern,
+
 
 I had two items to list that make this basic PHP CRUD app interesting. The first is , I used two prepared statements to get the last 3 users
 entered, and another query to get a count of all users:
@@ -13,7 +13,7 @@ entered, and another query to get a count of all users:
      $allusers = $cstmt->fetchAll(PDO::FETCH_OBJ);
 }
 
-Secondly, you'll notice the associative array(I call them a hash from my python training, ymmv) used within Update, to generate the variables used in
+Secondly, you'll notice the associative array used within Update, to generate the variables used in
 the prepared statements:
 
 
